@@ -26,7 +26,7 @@ export function withVariableContext(Component) {
     useEffect(() => {
       const extractVariables = async () => {
 
-        const variables = await variableResolver.getVariablesForElement(bo);
+        const variables = await variableResolver.getVariablesForElement(bo, element);
 
         setVariables(variables.map(variable => {
           return {
