@@ -38,6 +38,10 @@ import ElementTemplateChooserModule from '@bpmn-io/element-template-chooser';
 import ElementTemplatesIconsRenderer from '@bpmn-io/element-templates-icons-renderer';
 import ConnectorsExtensionModule from 'bpmn-js-connectors-extension';
 
+import {
+  ZeebeVariableResolverModule
+} from '@bpmn-io/variable-resolver';
+
 import CamundaBehaviorsModule from 'camunda-bpmn-js-behaviors/lib/camunda-platform';
 import ZeebeBehaviorsModule from 'camunda-bpmn-js-behaviors/lib/camunda-cloud';
 
@@ -143,7 +147,8 @@ describe('<BpmnPropertiesPanelRenderer>', function() {
           ZeebeBehaviorsModule,
           BpmnPropertiesPanel,
           BpmnPropertiesProvider,
-          ZeebePropertiesProvider
+          ZeebePropertiesProvider,
+          ZeebeVariableResolverModule
         ],
         moddleExtensions: {
           zeebe: ZeebeModdle
