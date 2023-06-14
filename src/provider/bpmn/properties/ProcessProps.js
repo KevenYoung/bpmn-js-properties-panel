@@ -87,7 +87,15 @@ function ProcessId(props) {
     return process.get('id');
   };
 
+  const validate = (value) => {
+    return isIdValid(process, value, translate);
+  };
+
   const setValue = (value) => {
+    if (validate(value)) {
+      return;
+    }
+
     commandStack.execute(
       'element.updateModdleProperties',
       {
@@ -98,10 +106,6 @@ function ProcessId(props) {
         }
       }
     );
-  };
-
-  const validate = (value) => {
-    return isIdValid(process, value, translate);
   };
 
   return TextFieldEntry({

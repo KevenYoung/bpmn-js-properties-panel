@@ -40,12 +40,6 @@ function Id(props) {
   const debounce = useService('debounceInput');
   const translate = useService('translate');
 
-  const setValue = (value) => {
-    modeling.updateProperties(element, {
-      id: value
-    });
-  };
-
   const getValue = (element) => {
     return element.businessObject.id;
   };
@@ -54,6 +48,15 @@ function Id(props) {
     const businessObject = getBusinessObject(element);
 
     return isIdValid(businessObject, value, translate);
+  };
+
+  const setValue = (value) => {
+    if (validate(value)) {
+      return;
+    }
+    modeling.updateProperties(element, {
+      id: value
+    });
   };
 
   return TextFieldEntry({

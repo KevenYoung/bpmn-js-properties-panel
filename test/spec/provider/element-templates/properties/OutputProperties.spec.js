@@ -455,7 +455,7 @@ describe('provider/element-templates - OutputProperties', function() {
         const inputOutput = findExtension(task, 'camunda:InputOutput'),
               outputParameter = findOutputParameter(inputOutput, { source: '${resultStatus}' });
 
-        expect(outputParameter.get('camunda:name')).to.equal('resultStatus');
+        expect(outputParameter.get('camunda:name')).not.to.exist;
 
         expectError(entry, 'Process variable name must not be empty.');
       });
@@ -478,7 +478,7 @@ describe('provider/element-templates - OutputProperties', function() {
         const inputOutput = findExtension(task, 'camunda:InputOutput'),
               outputParameter = findOutputParameter(inputOutput, { source: '${resultStatus}' });
 
-        expect(outputParameter.get('camunda:name')).to.equal('resultStatus');
+        expect(outputParameter.get('camunda:name')).to.equal('foo bar');
 
         expectError(entry, 'Process variable name must not contain spaces.');
       });
