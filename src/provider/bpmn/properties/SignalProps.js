@@ -6,7 +6,7 @@ import {
   sortBy
 } from 'min-dash';
 
-import { TextFieldEntry, isSelectEntryEdited, isTextFieldEntryEdited } from '@bpmn-io/properties-panel';
+import { TextFieldEntry, isSelectEntryEdited, isTextFieldEntryEdited } from '@zixel/properties-panel';
 import ReferenceSelect from '../../../entries/ReferenceSelect';
 
 import {
@@ -28,7 +28,7 @@ import {
 } from '../../../utils/ElementUtil';
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 export const EMPTY_OPTION = '';

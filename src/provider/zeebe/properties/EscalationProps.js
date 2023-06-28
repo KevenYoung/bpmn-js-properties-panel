@@ -4,7 +4,7 @@ import {
 
 import {
   isFeelEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   useService
@@ -18,7 +18,7 @@ import { FeelEntryWithVariableContext } from '../../../entries/FeelEntryWithCont
 
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

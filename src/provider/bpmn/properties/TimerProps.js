@@ -17,11 +17,11 @@ import {
   isSelectEntryEdited,
   TextFieldEntry,
   isTextFieldEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

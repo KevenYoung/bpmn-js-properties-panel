@@ -3,7 +3,7 @@ import {
   is
 } from 'bpmn-js/lib/util/ModelUtil';
 
-import { SelectEntry, isSelectEntryEdited } from '@bpmn-io/properties-panel';
+import { SelectEntry, isSelectEntryEdited } from '@zixel/properties-panel';
 
 import {
   getExtensionElementsList

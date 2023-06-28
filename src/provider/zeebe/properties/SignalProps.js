@@ -1,4 +1,4 @@
-import { isFeelEntryEdited } from '@bpmn-io/properties-panel';
+import { isFeelEntryEdited } from '@zixel/properties-panel';
 
 import { FeelEntryWithVariableContext } from '../../../entries/FeelEntryWithContext';
 
@@ -12,7 +12,7 @@ import {
 } from '../../../utils/EventDefinitionUtil';
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 export const EMPTY_OPTION = '';

@@ -1,4 +1,4 @@
-import { ListEntry, SimpleEntry } from '@bpmn-io/properties-panel';
+import { ListEntry, SimpleEntry } from '@zixel/properties-panel';
 
 import {
   is

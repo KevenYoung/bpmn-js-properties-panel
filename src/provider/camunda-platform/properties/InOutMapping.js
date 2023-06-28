@@ -1,4 +1,4 @@
-import { CheckboxEntry, SelectEntry, TextFieldEntry } from '@bpmn-io/properties-panel';
+import { CheckboxEntry, SelectEntry, TextFieldEntry } from '@zixel/properties-panel';
 
 import {
   useService

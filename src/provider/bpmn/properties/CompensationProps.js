@@ -12,7 +12,7 @@ import {
   isSelectEntryEdited,
   isCheckboxEntryEdited,
   CheckboxEntry
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   useService
@@ -27,7 +27,7 @@ import {
 } from '../utils/EventDefinitionUtil';
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

@@ -2,7 +2,7 @@ import { isDefined } from 'min-dash';
 
 import { getBusinessObject } from 'bpmn-js/lib/util/ModelUtil';
 
-import { SelectEntry, isSelectEntryEdited } from '@bpmn-io/properties-panel';
+import { SelectEntry, isSelectEntryEdited } from '@zixel/properties-panel';
 
 import {
   useService

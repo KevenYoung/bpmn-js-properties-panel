@@ -24,7 +24,7 @@ import {
   isCheckboxEntryEdited,
   SelectEntry,
   isSelectEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import { CalledBpmnProps } from './CalledBpmnProps';
 import { CalledCmmnProps } from './CalledCmmnProps';

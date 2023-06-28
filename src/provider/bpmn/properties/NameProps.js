@@ -9,14 +9,14 @@ import {
   add as collectionAdd
 } from 'diagram-js/lib/util/Collections';
 
-import { TextAreaEntry, isTextAreaEntryEdited } from '@bpmn-io/properties-panel';
+import { TextAreaEntry, isTextAreaEntryEdited } from '@zixel/properties-panel';
 
 import {
   useService
 } from '../../../hooks';
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

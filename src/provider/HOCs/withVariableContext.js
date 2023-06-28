@@ -1,5 +1,5 @@
 import { getVariablesForElement } from '@bpmn-io/extract-process-variables/zeebe';
-import { useEffect, useState } from '@bpmn-io/properties-panel/preact/hooks';
+import { useEffect, useState } from '@zixel/properties-panel/preact/hooks';
 import { useService } from '../../hooks';
 
 function useServiceIfAvailable(service, fallback) {

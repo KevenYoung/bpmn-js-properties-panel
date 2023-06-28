@@ -24,8 +24,8 @@ import {
   useService
 } from '../../../hooks';
 
-import { ListGroup } from '@bpmn-io/properties-panel';
-import { useEffect, useState } from '@bpmn-io/properties-panel/preact/hooks';
+import { ListGroup } from '@zixel/properties-panel';
+import { useEffect, useState } from '@zixel/properties-panel/preact/hooks';
 
 
 function ProcessVariablesEntry(props) {

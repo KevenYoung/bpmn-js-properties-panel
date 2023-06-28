@@ -4,7 +4,7 @@ import {
   SelectEntry,
   TextFieldEntry,
   isTextFieldEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 
 import { isAny } from 'bpmn-js/lib/features/modeling/util/ModelingUtil';

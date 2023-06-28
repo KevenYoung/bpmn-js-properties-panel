@@ -7,7 +7,7 @@ import {
   isAny
 } from 'bpmn-js/lib/util/ModelUtil';
 
-import { SelectEntry } from '@bpmn-io/properties-panel';
+import { SelectEntry } from '@zixel/properties-panel';
 
 import {
   getExtensionElementsList, removeExtensionElements

@@ -14,7 +14,7 @@ import {
   insertCoreStyles
 } from 'test/TestHelper';
 
-import { Header } from '@bpmn-io/properties-panel';
+import { Header } from '@zixel/properties-panel';
 
 import {
   PanelHeaderProvider,

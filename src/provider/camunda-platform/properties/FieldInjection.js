@@ -1,4 +1,4 @@
-import { TextFieldEntry, SelectEntry } from '@bpmn-io/properties-panel';
+import { TextFieldEntry, SelectEntry } from '@zixel/properties-panel';
 
 import {
   useService

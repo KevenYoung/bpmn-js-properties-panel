@@ -1,4 +1,4 @@
-import { Group } from '@bpmn-io/properties-panel';
+import { Group } from '@zixel/properties-panel';
 
 import {
   CompensationProps,

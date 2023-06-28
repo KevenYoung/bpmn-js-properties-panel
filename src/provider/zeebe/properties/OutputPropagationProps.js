@@ -23,7 +23,7 @@ import {
   useService
 } from '../../../hooks';
 
-import { ToggleSwitchEntry, isToggleSwitchEntryEdited } from '@bpmn-io/properties-panel';
+import { ToggleSwitchEntry, isToggleSwitchEntryEdited } from '@zixel/properties-panel';
 
 
 export function OutputPropagationProps(props) {

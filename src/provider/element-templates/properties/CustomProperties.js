@@ -17,7 +17,7 @@ import {
   CheckboxEntry, isCheckboxEntryEdited,
   TextAreaEntry, isTextAreaEntryEdited,
   TextFieldEntry, isTextFieldEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import { PropertyDescription } from '../components/PropertyDescription';
 

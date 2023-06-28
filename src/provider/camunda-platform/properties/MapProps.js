@@ -1,4 +1,4 @@
-import { CollapsibleEntry, ListEntry, TextFieldEntry } from '@bpmn-io/properties-panel';
+import { CollapsibleEntry, ListEntry, TextFieldEntry } from '@zixel/properties-panel';
 
 import {
   is

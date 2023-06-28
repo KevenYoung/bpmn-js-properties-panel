@@ -103,7 +103,7 @@ export function clickInput(input) {
 export function insertCoreStyles() {
   insertCSS(
     'properties-panel.css',
-    require('@bpmn-io/properties-panel/assets/properties-panel.css').default
+    require('@zixel/properties-panel/assets/properties-panel.css').default
   );
 
   insertCSS(
@@ -167,7 +167,7 @@ function bpmnJsSatisfies(versionRange) {
 }
 
 /**
- * Execute test only if currently installed @bpmn-io/properties-panel is of given version.
+ * Execute test only if currently installed @zixel/properties-panel is of given version.
  *
  * @param {string} versionRange
  * @param {boolean} only
@@ -181,7 +181,7 @@ export function withPropertiesPanel(versionRange, only = false) {
 }
 
 function propertiesPanelSatisfies(versionRange) {
-  const version = require('@bpmn-io/properties-panel/package.json').version;
+  const version = require('@zixel/properties-panel/package.json').version;
 
   return semver.satisfies(version, versionRange, { includePrerelease: true });
 }

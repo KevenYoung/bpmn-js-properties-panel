@@ -4,7 +4,7 @@ import {
 
 import {
   isFeelEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import { useService } from '../../../hooks';
 

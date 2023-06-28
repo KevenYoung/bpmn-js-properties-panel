@@ -24,7 +24,7 @@ import {
   isSelectEntryEdited,
   TextAreaEntry,
   isTextAreaEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 /**
  * Defines condition properties for conditional sequence flow.

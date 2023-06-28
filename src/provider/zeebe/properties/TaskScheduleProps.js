@@ -3,7 +3,7 @@ import {
   is
 } from 'bpmn-js/lib/util/ModelUtil';
 
-import { isFeelEntryEdited } from '@bpmn-io/properties-panel';
+import { isFeelEntryEdited } from '@zixel/properties-panel';
 
 import {
   getExtensionElementsList

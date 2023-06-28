@@ -1,4 +1,4 @@
-import { Group, ListGroup } from '@bpmn-io/properties-panel';
+import { Group, ListGroup } from '@zixel/properties-panel';
 
 import {
   AssignmentDefinitionProps,
@@ -28,7 +28,7 @@ import { ExtensionPropertiesProps } from '../shared/ExtensionPropertiesProps';
 import { isMessageEndEvent, isMessageThrowEvent } from './utils/ZeebeServiceTaskUtil';
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 const LOW_PRIORITY = 500;

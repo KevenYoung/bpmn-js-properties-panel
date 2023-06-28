@@ -6,7 +6,7 @@ import {
 import {
   CheckboxEntry,
   isCheckboxEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   useService

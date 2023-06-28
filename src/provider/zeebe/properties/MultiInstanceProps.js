@@ -5,7 +5,7 @@ import {
 import {
   TextFieldEntry, isTextFieldEntryEdited,
   isFeelEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   getExtensionElementsList

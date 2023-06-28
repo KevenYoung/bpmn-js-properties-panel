@@ -1,6 +1,6 @@
 import {
   useEffect
-} from '@bpmn-io/properties-panel/preact/hooks';
+} from '@zixel/properties-panel/preact/hooks';
 
 import {
   query as domQuery
@@ -9,7 +9,7 @@ import {
 import {
   SelectEntry,
   usePrevious
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 
 export default function ReferenceSelectEntry(props) {

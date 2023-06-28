@@ -10,7 +10,7 @@ import {
   TextFieldEntry,
   isSelectEntryEdited,
   isTextFieldEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import ReferenceSelect from '../../../entries/ReferenceSelect';
 
@@ -35,7 +35,7 @@ export const CREATE_NEW_OPTION = 'create-new';
 
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

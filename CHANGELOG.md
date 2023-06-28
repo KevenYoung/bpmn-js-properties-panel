@@ -21,8 +21,8 @@ ___Note:__ Yet to be released changes appear here._
 
 ## 1.26.0
 
-* `FEAT`: change FEEL toggle ([@bpmn-io/properties-panel#240](https://github.com/bpmn-io/properties-panel/issues/240))
-* `DEPS`: update to `@bpmn-io/properties-panel@2.2.0`
+* `FEAT`: change FEEL toggle ([@zixel/properties-panel#240](https://github.com/bpmn-io/properties-panel/issues/240))
+* `DEPS`: update to `@zixel/properties-panel@2.2.0`
 
 ## 1.25.0
 
@@ -37,7 +37,7 @@ ___Note:__ Yet to be released changes appear here._
 * `FEAT`: validate custom dropdown and textArea entries ([#922](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/922))
 * `FIX`: allow to configure variable events for conditional start event in event subprocess ([#925](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/925))
 * `FIX`: unlink templated message instead of removing ([#914](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/914))
-* `DEPS`: update to `@bpmn-io/properties-panel@2.0.0`
+* `DEPS`: update to `@zixel/properties-panel@2.0.0`
 
 ## 1.23.0
 
@@ -100,7 +100,7 @@ ___Note:__ Yet to be released changes appear here._
 
 ## 1.17.1
 
-* `DEPS`: update to `@bpmn-io/properties-panel@1.3.1`
+* `DEPS`: update to `@zixel/properties-panel@1.3.1`
 
 ## 1.17.0
 
@@ -112,7 +112,7 @@ ___Note:__ Yet to be released changes appear here._
 * `FIX`: _Extension properties_ and _Headers_ are not sorted alphabetically ([#867](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/867))
 * `FIX`: result variables of script tasks are shown in FEEL suggestions ([extract-process-variables#25](https://github.com/bpmn-io/extract-process-variables/issues/25))
 * `DEPS`: update to `@bpmn-io/extract-process-variables@0.8.0`
-* `DEPS`: update to `@bpmn-io/properties-panel@1.3.0`
+* `DEPS`: update to `@zixel/properties-panel@1.3.0`
 
 ## 1.16.0
 
@@ -138,18 +138,18 @@ ___Note:__ Yet to be released changes appear here._
 ## 1.13.1
 
 * `FIX`: correct element template defined `Dropdown` showing incorrect value ([`b3248fea`](https://github.com/bpmn-io/bpmn-js-properties-panel/commit/b3248fea0a19dabca7a9b969121cf07fba7a8f0a))
-* `DEPS`: update to `@bpmn-io/properties-panel@1.1.1`
+* `DEPS`: update to `@zixel/properties-panel@1.1.1`
 
 ## 1.13.0
 
 * `FEAT`: add FEEL expression implementation for Script Task ([#825](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/825))
-* `DEPS`: update to `@bpmn-io/properties-panel@1.0.1` ([#810](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/810))
+* `DEPS`: update to `@zixel/properties-panel@1.0.1` ([#810](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/810))
 
 ## 1.12.0
 
 * `FEAT`: update available variables on commandstack changes ([#393](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/814))
 * `FEAT`: configure feel tooltip placement using the properties panel configuration ([#393](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/814))
-* `DEPS`: update to `@bpmn-io/properties-panel@1.0.0`
+* `DEPS`: update to `@zixel/properties-panel@1.0.0`
 
 ## 1.11.3
 
@@ -166,7 +166,7 @@ ___Note:__ Yet to be released changes appear here._
 ## 1.11.0
 
 * `FEAT`: add candidate users entry to assignment group ([#776](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/776))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.24.0`
+* `DEPS`: update to `@zixel/properties-panel@0.24.0`
 * `DEPS`: update to `diagram-js@10.0.0`
 
 ## 1.10.0
@@ -187,13 +187,13 @@ ___Note:__ Yet to be released changes appear here._
 ## 1.8.1
 
 * `DEPS`: mark as `bpmn-js@10` compatible
-* `FIX`: include `@bpmn-io/properties-panel@0.22.0` in peer dependency range
+* `FIX`: include `@zixel/properties-panel@0.22.0` in peer dependency range
 
 ## 1.8.0
 
 * `FEAT`: support cron expressions for timer cycle ([#772](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/772))
 * `FIX`: unset timer type correctly ([#775](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/775))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.22.0`
+* `DEPS`: update to `@zixel/properties-panel@0.22.0`
 
 ## 1.7.0
 
@@ -203,11 +203,11 @@ ___Note:__ Yet to be released changes appear here._
 * `FIX`: support `zeebe:property` binding for creation of elements from element templates ([#762](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/762))
 * `FIX`: support conditional properties for creation of elements from element templates ([#762](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/762))
 * `CHORE`: remove default values from _Variable assignment value_ of _Input_ and _Output_ ([#757](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/757))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.21.0`
+* `DEPS`: update to `@zixel/properties-panel@0.21.0`
 
 ## 1.6.1
 
-* `DEPS`: update to `@bpmn-io/properties-panel@0.20.1`
+* `DEPS`: update to `@zixel/properties-panel@0.20.1`
 * `DEPS`: update to `@bpmn-io/element-templates-icons-renderer@0.2.0`
 * `DEPS`: update to `diagram-js@8.9.0`
 * `DEPS`: update to `bpmn-js@9.4.1`
@@ -217,7 +217,7 @@ ___Note:__ Yet to be released changes appear here._
 * `FEAT`: support `zeebe:property` ([#731](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/731))
 * `FIX`: copy full `FEEL` expression ([#728](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/728))
 * `FIX`: don't serialize `zeebe:taskHeader` template bindings without a value ([#684](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/684))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.20.0`
+* `DEPS`: update to `@zixel/properties-panel@0.20.0`
 
 ## 1.5.0
 
@@ -226,7 +226,7 @@ ___Note:__ Yet to be released changes appear here._
 * `FIX`: prevent undo events from affecting the wrong element ([#712](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/712))
 * `CHORE`: set `bpmn:Group` label in a side-effect free manner ([#739](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/739))
 * `CHORE`: update formType documentation link ([cb627c4](https://github.com/bpmn-io/bpmn-js-properties-panel/commit/cb627c4e2c21aef5f37c4723f2cdb219a66ee310))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.19.0`
+* `DEPS`: update to `@zixel/properties-panel@0.19.0`
 * `DEPS`: update to `bpmn-js@9.3.2`
 * `DEPS`: update to `diagram-js@8.8.0`
 * `DEPS`: update to `zeebe-bpmn-moddle@0.12.2`
@@ -235,13 +235,13 @@ ___Note:__ Yet to be released changes appear here._
 
 * `FEAT`: use FEEL editor for FEEL expressions ([#706](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/706))
 * `FIX`: support jQuery as parent node ([#729](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/729))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.18.0`
+* `DEPS`: update to `@zixel/properties-panel@0.18.0`
 * `DEPS`: update to `@bpmn-io/extract-process-variables@0.5.0`
 
 ## 1.3.0
 
 * `FEAT`: set errors through context ([#160](https://github.com/bpmn-io/properties-panel/pull/160))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.16.0`
+* `DEPS`: update to `@zixel/properties-panel@0.16.0`
 * `DEPS`: update to `bpmn-js@9.3.0`
 
 ## 1.2.0
@@ -275,7 +275,7 @@ ___Note:__ Yet to be released changes appear here._
 
 _A complete rewrite of the library, based on modern foundations._
 
-* `FEAT`: rewrite project to new, [@bpmn-io/properties-panel](https://github.com/bpmn-io/properties-panel)-based architecture
+* `FEAT`: rewrite project to new, [@zixel/properties-panel](https://github.com/bpmn-io/properties-panel)-based architecture
 * `FEAT`: replace tabs with flat structure where groups are basic building blocks
 * `FEAT`: add "dirty" markers to notify non-default value of entry/entries in group
 * `FEAT`: keep open/closed state of the groups between elements
@@ -289,12 +289,12 @@ For more changes, read the alpha releases entries below.
 * `PropertiesProvider#getTabs` is no longer used. Migrate to the new `PropertiesProvider#getGroups` API instead.
   Check out [the example migration](https://github.com/bpmn-io/bpmn-js-examples/pull/142) and [this pull request](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/590) for guidance.
 * Previously exported entry factory functions are no longer available. Use components exported from
-  [`@bpmn-io/properties-panel`](https://github.com/bpmn-io/properties-panel) instead.
+  [`@zixel/properties-panel`](https://github.com/bpmn-io/properties-panel) instead.
 * Element templates select has been removed. Handle [`elementTemplates.select` event](https://github.com/bpmn-io/bpmn-js-properties-panel/blob/v1.0.0-alpha.0/src/provider/element-templates/components/ElementTemplatesGroup.js#L132) or use [the element template chooser](https://github.com/bpmn-io/element-template-chooser) to implement template selection.
 
 ## 1.0.0-alpha.13
 
-* `DEPS`: update to `@bpmn-io/properties-panel@0.13.2` ([#660](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/660))
+* `DEPS`: update to `@zixel/properties-panel@0.13.2` ([#660](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/660))
 * `FIX`: only keep defined mappings (cloud-templates) ([#659](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/659))
 * `FEAT`: rearrange process props by relevance ([#656](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/656))
 
@@ -325,7 +325,7 @@ For more changes, read the alpha releases entries below.
 * `FIX`: use correct business object ([#634](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/634))
 * `FIX`: mark called decision ID as optionally FEEL ([#643](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/643))
 * `DEPS`: update to `@bpmn-io/extract-process-variables@v0.4.5`
-* `DEPS`: update to `@bpmn-io/properties-panel@0.13.1`
+* `DEPS`: update to `@zixel/properties-panel@0.13.1`
 
 ## 1.0.0-alpha.8
 
@@ -353,7 +353,7 @@ For more changes, read the alpha releases entries below.
 * `FEAT`: validate cloud element templates against JSON Schema ([#561](https://github.com/bpmn-io/bpmn-js-properties-panel/issues/561))
 * `FEAT`: use components instead of elements for all entries ([#590](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/590))
 * `FIX`: set correct title to element templates select ([#591](https://github.com/bpmn-io/bpmn-js-properties-panel/pull/591))
-* `DEPS`: update to `@bpmn-io/properties-panel@0.11.0`
+* `DEPS`: update to `@zixel/properties-panel@0.11.0`
 * `DEPS`: update to `@bpmn-io/element-templates-validator@0.5.0`
 
 ### Breaking Changes
@@ -389,7 +389,7 @@ Checkout this [pull request](https://github.com/bpmn-io/bpmn-js-properties-panel
 
 ## 1.0.0-alpha.0
 
-* `FEAT`: rewrite project to new, [@bpmn-io/properties-panel](https://github.com/bpmn-io/properties-panel)-based architecture
+* `FEAT`: rewrite project to new, [@zixel/properties-panel](https://github.com/bpmn-io/properties-panel)-based architecture
 * `FEAT`: replace tabs with flat structure where groups are basic building blocks
 * `FEAT`: add "dirty" markers to notify non-default value of entry/entries in group
 * `FEAT`: keep open/closed state of the groups between elements
@@ -399,7 +399,7 @@ Checkout this [pull request](https://github.com/bpmn-io/bpmn-js-properties-panel
 * `PropertiesProvider#getTabs` is no longer used. Migrate to the new `PropertiesProvider#getGroups` API instead.
   Check out [the example migration](https://github.com/bpmn-io/bpmn-js-examples/pull/142) for guidance.
 * Previously exported entry factory functions are no longer available. Use components exported from
-  [`@bpmn-io/properties-panel`](https://github.com/bpmn-io/properties-panel) instead.
+  [`@zixel/properties-panel`](https://github.com/bpmn-io/properties-panel) instead.
 * Element templates select has been removed. Handle [`elementTemplates.select` event](https://github.com/bpmn-io/bpmn-js-properties-panel/blob/v1.0.0-alpha.0/src/provider/element-templates/components/ElementTemplatesGroup.js#L132) to implement template selection.
 
 ## 0.46.0

@@ -1,4 +1,4 @@
-import { ListGroup } from '@bpmn-io/properties-panel';
+import { ListGroup } from '@zixel/properties-panel';
 
 import {
   createElementTemplatesGroup,

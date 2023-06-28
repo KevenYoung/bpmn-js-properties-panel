@@ -1,4 +1,4 @@
-import { TextFieldEntry, isTextFieldEntryEdited, isSelectEntryEdited } from '@bpmn-io/properties-panel';
+import { TextFieldEntry, isTextFieldEntryEdited, isSelectEntryEdited } from '@zixel/properties-panel';
 
 import ReferenceSelect from '../../../entries/ReferenceSelect';
 

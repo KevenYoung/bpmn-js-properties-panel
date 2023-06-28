@@ -1,6 +1,6 @@
 import { getBusinessObject } from 'bpmn-js/lib/util/ModelUtil';
 
-import { ToggleSwitchEntry } from '@bpmn-io/properties-panel';
+import { ToggleSwitchEntry } from '@zixel/properties-panel';
 
 import InputOutputParameter from '../../camunda-platform/properties/InputOutputParameter';
 

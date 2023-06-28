@@ -3,7 +3,7 @@ import {
   useMemo,
   useEffect,
   useCallback
-} from '@bpmn-io/properties-panel/preact/hooks';
+} from '@zixel/properties-panel/preact/hooks';
 
 import {
   find,
@@ -11,7 +11,7 @@ import {
   reduce
 } from 'min-dash';
 
-import { PropertiesPanel } from '@bpmn-io/properties-panel';
+import { PropertiesPanel } from '@zixel/properties-panel';
 
 import {
   BpmnPropertiesPanelContext

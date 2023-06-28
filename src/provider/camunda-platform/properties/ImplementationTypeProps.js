@@ -2,7 +2,7 @@ import {
   sortBy, without
 } from 'min-dash';
 
-import { SelectEntry, isSelectEntryEdited } from '@bpmn-io/properties-panel';
+import { SelectEntry, isSelectEntryEdited } from '@zixel/properties-panel';
 
 import {
   useService

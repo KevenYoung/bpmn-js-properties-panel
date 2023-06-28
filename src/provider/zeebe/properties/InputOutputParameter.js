@@ -2,7 +2,7 @@ import {
   is
 } from 'bpmn-js/lib/util/ModelUtil';
 
-import { TextFieldEntry } from '@bpmn-io/properties-panel';
+import { TextFieldEntry } from '@zixel/properties-panel';
 
 import {
   useService

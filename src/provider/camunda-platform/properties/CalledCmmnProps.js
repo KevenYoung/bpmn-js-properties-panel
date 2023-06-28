@@ -11,7 +11,7 @@ import {
   isTextFieldEntryEdited,
   SelectEntry,
   isSelectEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 /**
  * Defines entries for calling a CMMN diagram.

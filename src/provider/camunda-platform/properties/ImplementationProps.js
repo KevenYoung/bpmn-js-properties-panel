@@ -1,4 +1,4 @@
-import { TextFieldEntry, isTextFieldEntryEdited } from '@bpmn-io/properties-panel';
+import { TextFieldEntry, isTextFieldEntryEdited } from '@zixel/properties-panel';
 
 import { DmnImplementationProps } from './DmnImplementationProps';
 import { ImplementationTypeProps } from './ImplementationTypeProps';

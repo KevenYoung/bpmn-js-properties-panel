@@ -9,7 +9,7 @@ import {
   isTextFieldEntryEdited,
   TextAreaEntry,
   isTextAreaEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   ScriptProps

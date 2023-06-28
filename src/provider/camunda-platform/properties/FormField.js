@@ -1,4 +1,4 @@
-import { CollapsibleEntry, ListEntry, TextFieldEntry, SelectEntry } from '@bpmn-io/properties-panel';
+import { CollapsibleEntry, ListEntry, TextFieldEntry, SelectEntry } from '@zixel/properties-panel';
 
 import FormFieldConstraint from './FormFieldConstraint';
 import FormFieldProperty from './FormFieldProperty';

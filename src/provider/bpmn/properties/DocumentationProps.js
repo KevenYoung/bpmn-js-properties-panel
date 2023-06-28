@@ -6,7 +6,7 @@ import {
 import {
   TextAreaEntry,
   isTextAreaEntryEdited
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   useService
@@ -18,7 +18,7 @@ const DOCUMENTATION_TEXT_FORMAT = 'text/plain';
 
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

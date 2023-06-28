@@ -1,6 +1,6 @@
 import { getBusinessObject } from 'bpmn-js/lib/util/ModelUtil';
 
-import { TextFieldEntry, isTextFieldEntryEdited, SelectEntry, isSelectEntryEdited } from '@bpmn-io/properties-panel';
+import { TextFieldEntry, isTextFieldEntryEdited, SelectEntry, isSelectEntryEdited } from '@zixel/properties-panel';
 
 import { FormTypeProps } from './FormTypeProps';
 

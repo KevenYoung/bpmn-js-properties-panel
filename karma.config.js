@@ -75,7 +75,7 @@ module.exports = function(karma) {
               options: {
                 plugins: [
                   [ '@babel/plugin-transform-react-jsx', {
-                    'importSource': '@bpmn-io/properties-panel/preact',
+                    'importSource': '@zixel/properties-panel/preact',
                     'runtime': 'automatic'
                   } ]
                 ].concat(coverage ? [
@@ -105,9 +105,9 @@ module.exports = function(karma) {
           function(resource) {
 
             const replMap = {
-              'preact/hooks': path.resolve('node_modules/@bpmn-io/properties-panel/preact/hooks/dist/hooks.module.js'),
-              'preact/jsx-runtime': path.resolve('node_modules/@bpmn-io/properties-panel/preact/jsx-runtime/dist/jsxRuntime.module.js'),
-              'preact': path.resolve('node_modules/@bpmn-io/properties-panel/preact/dist/preact.module.js')
+              'preact/hooks': path.resolve('node_modules/@zixel/properties-panel/preact/hooks/dist/hooks.module.js'),
+              'preact/jsx-runtime': path.resolve('node_modules/@zixel/properties-panel/preact/jsx-runtime/dist/jsxRuntime.module.js'),
+              'preact': path.resolve('node_modules/@zixel/properties-panel/preact/dist/preact.module.js')
             };
 
             const replacement = replMap[resource.request];
@@ -121,7 +121,7 @@ module.exports = function(karma) {
         ),
         new NormalModuleReplacementPlugin(
           /^preact\/hooks/,
-          path.resolve('node_modules/@bpmn-io/properties-panel/preact/hooks/dist/hooks.module.js')
+          path.resolve('node_modules/@zixel/properties-panel/preact/hooks/dist/hooks.module.js')
         )
       ],
       resolve: {
@@ -131,9 +131,9 @@ module.exports = function(karma) {
           'main'
         ],
         alias: {
-          'preact': '@bpmn-io/properties-panel/preact',
-          'react': '@bpmn-io/properties-panel/preact/compat',
-          'react-dom': '@bpmn-io/properties-panel/preact/compat'
+          'preact': '@zixel/properties-panel/preact',
+          'react': '@zixel/properties-panel/preact/compat',
+          'react-dom': '@zixel/properties-panel/preact/compat'
         },
         modules: [
           'node_modules',

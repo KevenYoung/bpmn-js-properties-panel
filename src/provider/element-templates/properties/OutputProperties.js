@@ -1,6 +1,6 @@
 import { getBusinessObject } from 'bpmn-js/lib/util/ModelUtil';
 
-import { TextFieldEntry, ToggleSwitchEntry } from '@bpmn-io/properties-panel';
+import { TextFieldEntry, ToggleSwitchEntry } from '@zixel/properties-panel';
 
 import { containsSpace } from '../../bpmn/utils/ValidationUtil';
 

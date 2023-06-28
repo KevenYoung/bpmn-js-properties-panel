@@ -1,4 +1,4 @@
-import { FeelEntry as BaseFeelEntry, FeelTextAreaEntry as BaseFeelTextAreaEntry } from '@bpmn-io/properties-panel';
+import { FeelEntry as BaseFeelEntry, FeelTextAreaEntry as BaseFeelTextAreaEntry } from '@zixel/properties-panel';
 import { withTooltipContainer, withVariableContext } from '../provider/HOCs';
 
 export const FeelEntry = withTooltipContainer(BaseFeelEntry);

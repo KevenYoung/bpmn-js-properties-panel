@@ -7,7 +7,7 @@ import {
 
 import {
   render
-} from '@bpmn-io/properties-panel/preact';
+} from '@zixel/properties-panel/preact';
 
 import {
   domify,
@@ -18,8 +18,8 @@ import {
 const DEFAULT_PRIORITY = 1000;
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').GroupDefinition } GroupDefinition
- * @typedef { import('@bpmn-io/properties-panel').ListGroupDefinition } ListGroupDefinition
+ * @typedef { import('@zixel/properties-panel').GroupDefinition } GroupDefinition
+ * @typedef { import('@zixel/properties-panel').ListGroupDefinition } ListGroupDefinition
  * @typedef { { getGroups: (ModdleElement) => (Array{GroupDefinition|ListGroupDefinition}) => Array{GroupDefinition|ListGroupDefinition}) } PropertiesProvider
  */
 

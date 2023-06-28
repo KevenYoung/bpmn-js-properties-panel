@@ -1,7 +1,7 @@
 import BpmnPropertiesPanelRenderer from './BpmnPropertiesPanelRenderer';
 
 import Commands from '../cmd';
-import { DebounceInputModule } from '@bpmn-io/properties-panel';
+import { DebounceInputModule } from '@zixel/properties-panel';
 
 export default {
   __depends__: [

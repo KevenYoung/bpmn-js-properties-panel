@@ -1,4 +1,4 @@
-import { CheckboxEntry, isCheckboxEntryEdited } from '@bpmn-io/properties-panel';
+import { CheckboxEntry, isCheckboxEntryEdited } from '@zixel/properties-panel';
 
 import {
   isAny

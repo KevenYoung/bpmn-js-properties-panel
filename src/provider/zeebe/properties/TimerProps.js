@@ -13,7 +13,7 @@ import {
 import {
   isFeelEntryEdited,
   SelectEntry, isSelectEntryEdited,
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import { FeelEntryWithVariableContext } from '../../../entries/FeelEntryWithContext';
 
@@ -21,7 +21,7 @@ import { isTimerExpressionTypeSupported } from '../utils/TimerUtil';
 
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

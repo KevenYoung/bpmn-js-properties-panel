@@ -46,7 +46,7 @@ export default [
     plugins: pgl([
       copy({
         targets: [
-          { src: 'node_modules/@bpmn-io/properties-panel/assets/**/*.css', dest: 'dist/assets' },
+          { src: 'node_modules/@zixel/properties-panel/assets/**/*.css', dest: 'dist/assets' },
           { src: 'assets/*.css', dest: 'dist/assets' }
         ]
       })
@@ -59,8 +59,8 @@ function pgl(plugins = []) {
     ...plugins,
     alias({
       entries: [
-        { find: 'react', replacement: '@bpmn-io/properties-panel/preact/compat' },
-        { find: 'preact', replacement: '@bpmn-io/properties-panel/preact' }
+        { find: 'react', replacement: '@zixel/properties-panel/preact/compat' },
+        { find: 'preact', replacement: '@zixel/properties-panel/preact' }
       ]
     }),
     reactSvg(),
@@ -68,7 +68,7 @@ function pgl(plugins = []) {
       babelHelpers: 'bundled',
       plugins: [
         [ '@babel/plugin-transform-react-jsx', {
-          'importSource': '@bpmn-io/properties-panel/preact',
+          'importSource': '@zixel/properties-panel/preact',
           'runtime': 'automatic'
         } ]
       ]

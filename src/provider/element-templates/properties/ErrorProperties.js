@@ -2,7 +2,7 @@ import { without } from 'min-dash';
 
 import { getBusinessObject } from 'bpmn-js/lib/util/ModelUtil';
 
-import { TextFieldEntry } from '@bpmn-io/properties-panel';
+import { TextFieldEntry } from '@zixel/properties-panel';
 
 import Error from '../../camunda-platform/properties/Error';
 import { getErrorLabel } from '../../camunda-platform/properties/ErrorsProps';

@@ -1,4 +1,4 @@
-import { Group, ListGroup } from '@bpmn-io/properties-panel';
+import { Group, ListGroup } from '@zixel/properties-panel';
 
 import { findIndex } from 'min-dash';
 

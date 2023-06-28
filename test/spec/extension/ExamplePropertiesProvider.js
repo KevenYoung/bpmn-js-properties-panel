@@ -2,7 +2,7 @@ import {
   useState,
   useContext,
   useMemo
-} from '@bpmn-io/properties-panel/preact/hooks';
+} from '@zixel/properties-panel/preact/hooks';
 
 import {
   useService
@@ -11,7 +11,7 @@ import {
 import {
   LayoutContext,
   TextFieldEntry
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import {
   is

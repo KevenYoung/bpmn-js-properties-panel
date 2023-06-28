@@ -4,7 +4,7 @@ import {
   DropdownButton,
   HeaderButton,
   useLayoutState
-} from '@bpmn-io/properties-panel';
+} from '@zixel/properties-panel';
 
 import classnames from 'classnames';
 

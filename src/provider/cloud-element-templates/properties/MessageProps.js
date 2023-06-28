@@ -6,7 +6,7 @@ import {
   sortBy
 } from 'min-dash';
 
-import { isSelectEntryEdited } from '@bpmn-io/properties-panel';
+import { isSelectEntryEdited } from '@zixel/properties-panel';
 import ReferenceSelect from '../../../entries/ReferenceSelect';
 
 import { useService } from '../../../hooks';
@@ -30,7 +30,7 @@ export const CREATE_NEW_OPTION = 'create-new';
 
 
 /**
- * @typedef { import('@bpmn-io/properties-panel').EntryDefinition } Entry
+ * @typedef { import('@zixel/properties-panel').EntryDefinition } Entry
  */
 
 /**

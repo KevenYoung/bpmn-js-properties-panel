@@ -3,7 +3,7 @@ import {
   is
 } from 'bpmn-js/lib/util/ModelUtil';
 
-import { CheckboxEntry } from '@bpmn-io/properties-panel';
+import { CheckboxEntry } from '@zixel/properties-panel';
 
 import {
   useService
